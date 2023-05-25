@@ -1,0 +1,97 @@
+body {
+    font-family: 'Inter', 'Roboto', sans-serif!important;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+.row {
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+.container h4 {
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    font-size: 31px;
+    margin-bottom: 50px;
+}
+
+.container h2 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #0c0a1c;
+    margin-bottom: 40px;
+}
+
+.container p {
+    font-size: 21px;
+    line-height: 32px;
+}
+.container a i {
+    margin-right: 0.5em;
+}
+.container a {
+    margin-top: 50px;
+    border-style: none;
+    background-image: linear-gradient(100deg,#2D93FF 0%,#9500ED 100%);
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 25px 40px;
+    border-width: 2px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    overflow: hidden;
+    text-decoration: none!important;
+    cursor: pointer;
+    transition: color .1s ease-in-out,background-color .1s ease-in-out,border-color .1s ease-in-out;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    padding: 30px;
+}
+
+iframe {
+    border: none;
+}
+
+.call-text {
+    margin-top: 60px;
+}
+
+.call-reserve {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+p:not(.call-reserve) {
+    font-size: 19px;
+}
+
+p:not(.call-reserve) {
+    margin-top: 20px;
+}
+
+.call-demo {
+    font-size: 22px;
+}
