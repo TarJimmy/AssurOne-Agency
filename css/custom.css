@@ -112,11 +112,16 @@ footer .details {
     font-size: 13px;
 }
 
-footer p.confidentialite a {
-    color: #030107;
-    font-size: 16px;
+footer img {
+    height: 50px;
+    width: auto;
+}
+
+footer .confidentialite a {
+    color: #030107!important;
+    font-size: 16px!important;
     text-decoration: underline!important;
-    cursor: pointer;
+    cursor: pointer!important;
 }
 
 .start-icon {
