@@ -204,3 +204,71 @@ nav img {
     height: 200px;
     margin: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .container h2 {
+        font-size: 21px;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+    .container h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    img {
+        width: 70%;
+        height: auto;
+    }
+
+    #services-google p, #description p, #planning p {
+        font-size: 17px!important;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        text-align: justify;
+    }
+
+    section {
+        margin-bottom: 75px;
+    }
+
+    .btn-planning {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    footer {
+        padding: 20px!important;
+    }
+
+    footer .row {
+        margin-bottom: 10px;
+    }
+
+    footer .start-icon {
+        margin-top: 0;
+    }
+
+    .img-deco span {
+        font-size: 24px!important;
+        top: -1em!important;
+    }
+}
+
+.img-deco {
+    position: relative;
+    text-align: center;
+}
+
+.img-deco span {
+    position: absolute;
+    bottom: -1em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: 500;
+}

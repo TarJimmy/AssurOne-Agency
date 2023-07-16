@@ -1,57 +1,13 @@
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 0.9em;
+    text-align: justify;
+}
+
 body {
     font-family: 'Roboto';
-}
-
-.img-deco {
-    text-align: center;
-}
-
-
-@media screen and (max-width: 768px) {
-    .container h2 {
-        font-size: 21px;
-        text-align: center;
-        line-height: 1.5em;
-    }
-
-    .container h4 {
-        font-size: 20px;
-        line-height: 30px;
-    }
-
-    img {
-        width: 70%;
-        height: auto;
-    }
-
-    #services-google p, #description p, #planning p {
-        font-size: 17px!important;
-    }
-
-    p {
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-        text-align: justify;
-    }
-
-    section {
-        margin-bottom: 75px;
-    }
-
-    .btn-planning {
-        margin-top: 25px;
-        font-size: 15px;
-    }
-
-    footer {
-        padding: 20px!important;
-    }
-
-    footer .row {
-        margin-bottom: 10px;
-    }
-
-    footer .start-icon {
-        margin-top: 0;
-    }
 }
