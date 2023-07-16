@@ -256,6 +256,10 @@ nav img {
         font-size: 24px!important;
         top: -1em!important;
     }
+
+    nav img, footer img {
+        height: 50px;
+    }
 }
 
 .img-deco {
